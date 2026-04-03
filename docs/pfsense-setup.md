@@ -256,12 +256,12 @@ Then select **Disable this rule**, **Save**, and **Apply Changes**.
 ![Disable & Apply](/images/pf63.png)
 
 
-## Block WAN Subnets from LAN
+## Block WAN Subnets from AttackLAN
 
 Create another firewall rule at the **bottom of the LAN interface**.  
 ![Add Block WAN Rule](/images/pf64.png)
 
-Make the following options and select **Save**. *This rule blocks any traffic to WAN subnets (e.g., your home router if WAN is bridged, or VirtualBox/NAT subnets if WAN uses NAT).*  
+Make the following options and select **Save**. *This rule blocks any traffic from AttackLAN to WAN subnets.*  
 ![Block WAN Subnets Details](/images/pf65.png)
 
 Then select **Apply changes**.  
