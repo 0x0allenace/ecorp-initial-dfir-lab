@@ -1,6 +1,6 @@
 # 🛡️ ECorp DFIR Lab Simulation
 
-## 📌 Overview
+## Overview
 The **ECorp DFIR Lab Simulation** is a hands-on cybersecurity lab designed to replicate a small enterprise network for **Digital Forensics and Incident Response (DFIR)**.
 
 This project simulates a corporate LAN environment using:
@@ -11,7 +11,7 @@ This project simulates a corporate LAN environment using:
 
 The lab provides a controlled environment for practicing **incident detection, investigation, and response workflows**.
 
-## 🎯 Objectives
+## Objectives
 
 - Build a realistic enterprise DFIR lab
 - Simulate attacker activity within a corporate network
@@ -27,8 +27,6 @@ The simulated environment includes:
 - **Windows Active Directory** → Domain controller and user management  
 - **Velociraptor Server/Agents** → Endpoint visibility and forensic collection  
 - **Kali Linux Attacker Machine** → Adversary simulation  
-
----
 
 ## Use Cases
 
@@ -60,7 +58,7 @@ Detailed setup instructions are available in the `/docs` directory.
 4. Configure endpoints and logging  
 5. Launch Kali Linux for attack simulation  
 
-## 🔍 DFIR Workflow
+## DFIR Workflow
 
 This lab enables:
 
@@ -70,14 +68,14 @@ This lab enables:
 - Investigation of attacker behavior  
 - Incident documentation and reporting  
 
-## 📑 Included Resources
+## Included Resources
 
-- 📘 Lab topology and setup documentation (`/docs`)  
-- ⚙️ Configuration files (`/configs`)  
-- 📋 Incident response templates (`/templates`)  
+- Lab topology and setup documentation (`/docs`)  
+- Configuration files (`/configs`)  
+- Incident response templates (`/templates`)  
 
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Add SIEM integration (Splunk / ELK)  
 - [ ] Simulate real-world attack scenarios (lateral movement, persistence)  
@@ -94,5 +92,5 @@ Cybersecurity | DFIR | Threat Analysis | Machine Learning
 - LinkedIn: https://linkedin.com/in/allen-ace-soc-analyst  
 - X: https://x.com/allen_acee  
 
-## 📜 License
+## License
 MIT License
